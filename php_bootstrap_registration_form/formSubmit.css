@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    width: 17em;
+    height: 46em;
+    border: 1px solid black;
+    /* position: fixed; */
+}
+
+.h1{
+    margin: 1em;
+}
+
+h1 .fa{
+    margin: 1em;
+}
+
+.accordion {
+  background-color: white;
+  color: #444;
+  font-size: 1em;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* .active, .accordion:hover {
+  background-color: #ccc;
+} */
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+.accordion .fa{
+    margin-right: 1em;
+    font-size: 1.3em;
+    font-weight: bolder;
+}
+
+p{
+    font-size: 1.2em;
+    margin-left: 1.6em ;
+}
+
+.d-flex{
+    display: flex;
+}

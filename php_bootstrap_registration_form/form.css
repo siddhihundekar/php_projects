@@ -1,0 +1,47 @@
+html,
+body{
+    margin: 0;
+    padding: 0;
+    height: 50em;
+    width: 100em;
+    background-image: url(https://images.stockcake.com/public/e/f/d/efd5283b-b264-4c20-9ec7-ee0bf9b60165_medium/online-registration-setup-stockcake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+*{
+    color: white;
+}
+
+.bg_img_overlay{
+    background-color: rgba(0,0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+h2{
+    text-align: center;
+}
+
+.form{
+    /* background-color: rgba(0, 0, 0, 0.3); */
+    margin: 6em 28em 2em 28em;
+    width: 40em;
+    padding: 2em;
+    border: 1px solid white;
+    /* border: 1px solid black; */
+}
+
+option{
+    color: black;
+}
+
+.btn{
+    width: 10em;
+    margin-left: 13em;
+}
